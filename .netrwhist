@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/etc/wpa_supplicant'
+let g:netrw_dirhist_2='/etc/modules-load.d'
+let g:netrw_dirhist_3='/etc/rc.d'
+let g:netrw_dirhist_4='/etc/init.d'
+let g:netrw_dirhist_5='/usr/share/eclipse'
+let g:netrw_dirhist_6='/home/shade/etc/coding/java/DreamsComeTrue/.settings'
+let g:netrw_dirhist_7='/home/shade/.ssh'
+let g:netrw_dirhist_8='/Users/Sergey/distr/adt-bundle-mac-x86_64/source/.repo/repo'
+let g:netrw_dirhist_9='/Users/Sergey/distr/adt-bundle-mac-x86_64/source/.repo/projects'
