@@ -1,4 +1,9 @@
 " taglist
+
+if &ft != "c" && &ft != "cpp"
+    finish
+endif
+
 nmap <silent> <F12> :TlistToggle<CR>
 imap <silent> <F12> <Esc>:TlistToggle<CR>
 let Tlist_WinWidth=40

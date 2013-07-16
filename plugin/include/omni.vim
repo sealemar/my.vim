@@ -1,4 +1,9 @@
 " OmniCppComplete
+
+if &ft != "c" && &ft != "cpp"
+    finish
+endif
+
 let OmniCpp_NamespaceSearch     = 1
 let OmniCpp_GlobalScopeSearch   = 1
 let OmniCpp_ShowAccess          = 1
@@ -14,4 +19,4 @@ au CursorMovedI,InsertLeave * if pumvisible() == 0|silent! pclose|endif
 set completeopt=menuone,menu,longest,preview
 
 " do complition by pressing Control+Space
-inoremap <Nul> <C-X><C-O>
+inoremap <C-Space> <C-X><C-O>

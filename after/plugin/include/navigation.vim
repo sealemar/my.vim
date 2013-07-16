@@ -10,14 +10,14 @@
 " want to use. <Ctrl+v> means treat the next key literally, so it will show
 " the key, which further can be used in binding (after <Ctrl+v>)
 
-map <Up> gk
-map <Down> gj
-imap <Down> <ESC>gji
-imap <Up> <ESC>gki
-map j gj
-map k gk
-imap j <ESC>gji
-imap k <ESC>gki
+map <C-Up> gk
+map <C-Down> gj
+imap <C-Down> <ESC>gji
+imap <C-Up> <ESC>gki
+map <M-j> gj
+map <M-k> gk
+imap <M-j> <ESC>gji
+imap <M-k> <ESC>gki
 
 " press " in visual mode to quote the selected text
 vnoremap " <ESC>`>a"<Esc>`<i"<Esc>
@@ -85,8 +85,8 @@ vnoremap <silent> <End> :<C-U>call <SID>goEnd(2)<CR>
 " scroll window up/down without moving the cursor
 " Ctrl+Up   / Ctrl+k - scroll up
 " Ctrl+Down / Ctrl+j - scroll down
-silent nnoremap <Esc>[A <C-y>
-silent nnoremap <Esc>[B <C-e>
+silent nnoremap <C-Up> <C-y>
+silent nnoremap <C-Down> <C-e>
 silent nnoremap <C-k> <C-y>
 silent nnoremap <C-j> <C-e>
 
@@ -94,11 +94,11 @@ silent nnoremap <C-j> <C-e>
 silent nnoremap <Space> <C-^>
 
 " Ctrl+Left / Ctrl+Right - goto the previous / next buffer
-map <Esc>[C <ESC>:bn<CR>
-map <Esc>[D <ESC>:bp<CR>
+map <C-R> <ESC>:bn<CR>
+map <C-L> <ESC>:bp<CR>
 
 " F1 - open help for the word under cursor
-map [11~ <ESC>:exec "help ".expand("<cword>")<CR>
+map <F1> <ESC>:exec "help ".expand("<cword>")<CR>
 
 " nh - :nohl
 noremap <silent> ,n :nohl<CR>
@@ -120,6 +120,9 @@ silent nnoremap <C-]> :call <SID>gotoDefinition(expand("<cword>"))<CR>
 " @note use GoDef user command to goto definition of any function provided as
 " an argument
 command -nargs=1 GoDef :call <SID>gotoDefinition(expand("<args>"))
+
+nmap <M-Tab> gt
+nmap <M-S-Tab> gT
 
 " useful for Putty
 inoremap `` <Esc>

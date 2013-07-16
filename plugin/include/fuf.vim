@@ -23,16 +23,15 @@ let g:fuf_keyOpenTabpage   = ''
 let g:fuf_keyNextPattern   = '<Esc>[B'
 let g:fuf_keyPrevPattern   = '<Esc>[A'
 
-nnoremap <silent> <Esc>b   :FufBuffer<CR>
-nnoremap <silent> <Esc>f   :FufFile<CR>
-nnoremap <silent> <Esc>d   :FufDir<CR>
-nnoremap <silent> <Esc>l   :FufLine<CR>
-nnoremap <silent> <Esc>h   :FufMruFile<CR>
-nnoremap <silent> <Esc>c   :FufChangeList<CR>
-nnoremap <silent> <Esc>q   :FufQuickfix<CR>
-nnoremap <silent> <Esc>t   :FufTagWithCursorWord!<CR>
-nnoremap <silent> <Esc>k   :FufBookmark<CR>
+nnoremap <silent> <M-b>    :FufBuffer<CR>
+nnoremap <silent> <M-f>    :FufFile<CR>
+nnoremap <silent> <M-d>    :FufDir<CR>
+nnoremap <silent> <M-l>    :FufLine<CR>
+nnoremap <silent> <M-h>    :FufMruFile<CR>
+nnoremap <silent> <M-c>    :FufChangeList<CR>
+nnoremap <silent> <M-q>    :FufQuickfix<CR>
+nnoremap <silent> <M-t>    :FufTagWithCursorWord!<CR>
+nnoremap <silent> <M-k>    :FufBookmark<CR>
+nnoremap <silent> <M-j>    :FufJumpList<CR>
 nnoremap <silent> <F2>     :exec ':FufAddBookmark ' . expand("<cword>") <CR>
 vnoremap <silent> <F2>     :FufAddBookmarkAsSelectedText<CR>
-nnoremap <silent> <C-h>    :FufMruCmd<CR>
-"nnoremap <silent> <C-j>     :FufJumpList<CR>
