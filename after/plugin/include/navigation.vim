@@ -94,8 +94,8 @@ silent nnoremap <C-j> <C-e>
 silent nnoremap <Space> <C-^>
 
 " Ctrl+Left / Ctrl+Right - goto the previous / next buffer
-map <C-R> <ESC>:bn<CR>
-map <C-L> <ESC>:bp<CR>
+map <C-Right> <ESC>:bn<CR>
+map <C-Left> <ESC>:bp<CR>
 
 " F1 - open help for the word under cursor
 map <F1> <ESC>:exec "help ".expand("<cword>")<CR>

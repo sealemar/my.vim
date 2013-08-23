@@ -32,6 +32,6 @@ nnoremap <silent> <M-c>    :FufChangeList<CR>
 nnoremap <silent> <M-q>    :FufQuickfix<CR>
 nnoremap <silent> <M-t>    :FufTagWithCursorWord!<CR>
 nnoremap <silent> <M-k>    :FufBookmark<CR>
-nnoremap <silent> <M-j>    :FufJumpList<CR>
+nnoremap <silent> <M-i>    :FufJumpList<CR>
 nnoremap <silent> <F2>     :exec ':FufAddBookmark ' . expand("<cword>") <CR>
 vnoremap <silent> <F2>     :FufAddBookmarkAsSelectedText<CR>
