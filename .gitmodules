@@ -1,0 +1,16 @@
+[submodule "bundle/YouCompleteMe"]
+	path = bundle/YouCompleteMe
+	url = https://github.com/Valloric/YouCompleteMe
+[submodule "bundle/ultisnips"]
+	path = bundle/ultisnips
+	url = https://github.com/SirVer/ultisnips
+[submodule "bundle/syntastic"]
+	path = bundle/syntastic
+	url = https://github.com/scrooloose/syntastic
+[submodule "bundle/VimClojure"]
+	path = bundle/VimClojure
+	url = https://github.com/vim-scripts/VimClojure
+[submodule "bundle/ListToggle"]
+	path = bundle/ListToggle
+	url = https://github.com/Valloric/ListToggle
+
