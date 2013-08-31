@@ -1,14 +1,14 @@
 " FuzzyFinder plugin
 let g:fuf_dataDir         = $HOME.'/.cache/vim-specific/fuf'
 let g:fuf_modesDisable    = [ 'mrucmd', ]
-let g:fuf_abbrevMap       = {
-    \ '^fx'      : [$PUMA_SVN_DIR, ],
-    \ '^common'  : [$PUMA_SVN_DIR.'/common', ],
-    \ '^exe'     : [$PUMA_SVN_DIR.'/cpp/src/exes', $PUMA_SVN_DIR.'/common/cpp/src/exes', ],
-    \ '^lib'     : [$PUMA_SVN_DIR.'/cpp/src/libs', ],
-    \ '^idl'     : [$PUMA_SVN_DIR.'/idldefinition/idl', ],
-    \ '^gen'     : [$PUMA_BUILD_DIR.'/cpp/src/libs-gen/idl', ],
-    \ }
+" let g:fuf_abbrevMap       = {
+"     \ '^fx'      : [$PUMA_SVN_DIR, ],
+"     \ '^common'  : [$PUMA_SVN_DIR.'/common', ],
+"     \ '^exe'     : [$PUMA_SVN_DIR.'/cpp/src/exes', $PUMA_SVN_DIR.'/common/cpp/src/exes', ],
+"     \ '^lib'     : [$PUMA_SVN_DIR.'/cpp/src/libs', ],
+"     \ '^idl'     : [$PUMA_SVN_DIR.'/idldefinition/idl', ],
+"     \ '^gen'     : [$PUMA_BUILD_DIR.'/cpp/src/libs-gen/idl', ],
+"     \ }
 let g:fuf_mrufile_exclude  = '\v\~$|\.(o|exe|dll|bak|orig|sw[po])$|^(\/\/|\\\\|\/mnt\/|\/media\/)'
 let g:fuf_file_exclude     = '\v\~$|\.(o|exe|dll|bak|orig|swp)$|(^|[/\\])\.(hg|git|bzr)($|[/\\])'
 let g:fuf_mrufile_maxItem  = 500
