@@ -3,5 +3,5 @@
 highlight USER1         term=bold,reverse ctermfg=white ctermbg=darkgreen guifg=white guibg=darkgreen
 highlight USER2         term=bold,reverse cterm=bold,reverse gui=bold
 
-highlight CursorLine    cterm=NONE ctermbg=233 guibg=#121212
-highlight CursorColumn  cterm=NONE ctermbg=233 guibg=#121212
+highlight CursorLine    cterm=NONE ctermbg=233 guibg=#082831
+highlight CursorColumn  cterm=NONE ctermbg=233 guibg=#082831

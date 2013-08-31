@@ -15,6 +15,12 @@ hi NonText guibg=grey10 guifg=yellow4
 hi Ignore ctermfg=darkgrey guifg=darkgrey
 hi Error ctermfg=196 ctermbg=52 cterm=reverse
 
+highlight USER1         term=bold,reverse ctermfg=white ctermbg=darkgreen guifg=white guibg=darkgreen
+highlight USER2         term=bold,reverse cterm=bold,reverse gui=bold
+
+highlight CursorLine    cterm=NONE ctermbg=233 guibg=#082831
+highlight CursorColumn  cterm=NONE ctermbg=233 guibg=#082831
+
 " Diff
 hi DiffAdd term=bold ctermbg=17
 hi DiffText term=reverse ctermbg=52

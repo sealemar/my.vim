@@ -1,2 +1,1 @@
-" OmniCppComplete initialization
-call omni#cpp#complete#Init()
+setlocal tags+=~/.cache/vim-specific/c-usr-include
