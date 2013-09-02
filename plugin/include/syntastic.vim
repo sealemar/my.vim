@@ -15,5 +15,9 @@ let g:syntastic_stl_format     = '[%E{Err: %fe #%e}%B{, }%W{Warn: %fw #%w}]'
 "
 " let g:syntastic_c_checkers     = ['ycm', 'splint']
 " let g:syntastic_cpp_checkers   = ['ycm']
-let g:syntastic_java_checkers  = ['javac']
+
+" the next line or eclim, I use eclim for now
+"let g:syntastic_java_checkers  = ['javac']
+
+
 let g:syntastic_sh_checkers    = ['sh']

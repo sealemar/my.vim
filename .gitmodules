@@ -13,4 +13,3 @@
 [submodule "bundle/ListToggle"]
 	path = bundle/ListToggle
 	url = https://github.com/Valloric/ListToggle
-

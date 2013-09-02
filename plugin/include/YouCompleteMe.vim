@@ -6,6 +6,8 @@ let g:ycm_add_preview_to_completeopt          = 1
 let g:ycm_max_diagnostics_to_display          = 30
 let g:ycm_confirm_extra_conf                  = 1
 
+let g:EclimCompletionMethod = 'omnifunc'
+
 "let g:ycm_cache_omnifunc = 0
 
 let g:ycm_key_list_select_completion          = ['<TAB>', '<Down>']
