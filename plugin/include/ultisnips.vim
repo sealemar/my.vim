@@ -1,3 +1,4 @@
-let g:UltiSnipsExpandTrigger = '<C-s>'
-let g:UltiSnipsJumpForwardTrigger = '<C-s>'
-let g:UltiSnipsJumpBackwardTrigger = '<C-S-s>'
+let g:UltiSnipsExpandTrigger        = '<M-e>'
+let g:UltiSnipsListSnippets         = '<M-s>'
+let g:UltiSnipsJumpForwardTrigger   = '<M-r>'
+let g:UltiSnipsJumpBackwardTrigger  = '<M-w>'

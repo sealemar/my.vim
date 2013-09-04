@@ -1,1 +1,1 @@
-setlocal tags+=~/.cache/vim-specific/c-usr-include
+setlocal tags+=${HOME}/.cache/vim-specific/tags/c-usr-include

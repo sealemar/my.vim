@@ -128,7 +128,7 @@ au BufReadPost *.odt silent %!odt2txt "%"
 " tags is set on per filetype basis in after/ftplugin/*
 "
 
-set path="/usr/include"
+set path=/usr/include
 set path+=${JAVA_HOME}/include
 set path+=${HOME}/etc/usr/local/include
 set path+=/opt/local/include
