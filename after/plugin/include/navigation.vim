@@ -100,8 +100,7 @@ map <C-Left> <ESC>:bp<CR>
 " F1 - open help for the word under cursor
 map <F1> <ESC>:exec "help ".expand("<cword>")<CR>
 
-" nh - :nohl
-noremap <silent> ,n :nohl<CR>
+noremap <silent> <Leader>n :nohl<CR>
 
 " @brief implementation of go to definition behavior
 " @description

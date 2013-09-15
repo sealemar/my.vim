@@ -1,7 +1,7 @@
 " YankRing plugin
 
 function s:initCache()
-    !mkdir -p ${HOME}/.cache/vim-specific/yankring
+    silent !mkdir -p ${HOME}/.cache/vim-specific/yankring
 endfunction
 
 let g:yankring_window_use_bottom = 0
