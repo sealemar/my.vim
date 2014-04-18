@@ -13,6 +13,7 @@ colorscheme Dim
 set nocompatible
 
 " enable 256 colors in vim (usefull with GNU screen)
+set term=cons25
 set t_Co=256
 
 " tabs & indent

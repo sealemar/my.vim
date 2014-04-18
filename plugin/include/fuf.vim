@@ -20,18 +20,18 @@ let g:fuf_previewHeight    = 0
 let g:fuf_keyOpenSplit     = ''
 let g:fuf_keyOpenVsplit    = ''
 let g:fuf_keyOpenTabpage   = ''
-let g:fuf_keyNextPattern   = '<Esc>[B'
-let g:fuf_keyPrevPattern   = '<Esc>[A'
+let g:fuf_keyNextPattern   = '[C'
+let g:fuf_keyPrevPattern   = '[D'
 
-nnoremap <silent> <M-b>    :FufBuffer<CR>
-nnoremap <silent> <M-f>    :FufFile<CR>
-nnoremap <silent> <M-d>    :FufDir<CR>
-nnoremap <silent> <M-l>    :FufLine<CR>
-nnoremap <silent> <M-h>    :FufMruFile<CR>
-nnoremap <silent> <M-c>    :FufChangeList<CR>
-nnoremap <silent> <M-q>    :FufQuickfix<CR>
-nnoremap <silent> <M-t>    :FufTagWithCursorWord!<CR>
-nnoremap <silent> <M-k>    :FufBookmark<CR>
-nnoremap <silent> <M-i>    :FufJumpList<CR>
+nnoremap <silent> ∫ :FufBuffer<CR>
+nnoremap <silent> ƒ :FufFile<CR>
+nnoremap <silent> ∂ :FufDir<CR>
+nnoremap <silent> ¬ :FufLine<CR>
+nnoremap <silent> ˙ :FufMruFile<CR>
+nnoremap <silent> ç :FufChangeList<CR>
+nnoremap <silent> œ :FufQuickfix<CR>
+nnoremap <silent> † :FufTagWithCursorWord!<CR>
+nnoremap <silent> ˚ :FufBookmark<CR>
+nnoremap <silent> ˆ :FufJumpList<CR>
 nnoremap <silent> <F2>     :exec ':FufAddBookmark ' . expand("<cword>") <CR>
 vnoremap <silent> <F2>     :FufAddBookmarkAsSelectedText<CR>
