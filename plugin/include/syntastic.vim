@@ -19,5 +19,7 @@ let g:syntastic_stl_format     = '[%E{Err: %fe #%e}%B{, }%W{Warn: %fw #%w}]'
 " the next line or eclim, I use eclim for now
 "let g:syntastic_java_checkers  = ['javac']
 
+" let g:syntastic_filetype_map = { 'arduino': 'cpp' }
+
 
 let g:syntastic_sh_checkers    = ['sh']

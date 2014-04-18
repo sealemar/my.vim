@@ -1,3 +1,6 @@
+" let g:ycm_path_to_python_interpreter = `which python`
+let g:ycm_path_to_python_interpreter = substitute( system('which python'), "\n", "", "" )
+
 let g:ycm_min_num_of_chars_for_completion     = 3
 let g:ycm_register_as_syntastic_checker       = 1
 let g:ycm_collect_identifiers_from_tags_files = 1

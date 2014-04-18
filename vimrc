@@ -8,7 +8,6 @@
 " everything
 
 
-
 colorscheme Dim
 
 set nocompatible
