@@ -5,7 +5,7 @@
 let b:comment_leader = '# '
 au FileType haskell,vhdl,ada,sql let b:comment_leader = '-- '
 au FileType vim let b:comment_leader = '" '
-au FileType c,cpp,arduino,java let b:comment_leader = '// '
+au FileType c,cpp,arduino,java,javascript,less let b:comment_leader = '// '
 au FileType sh,make,perl,python let b:comment_leader = '# '
 au FileType tex let b:comment_leader = '% '
 au FileType clojure let b:comment_leader = '; '

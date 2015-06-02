@@ -128,3 +128,6 @@ inoremap `` <Esc>
 vnoremap `` <Esc>
 nnoremap `` <Esc>
 cnoremap `` <Esc>
+
+nmap <silent> <leader>h <Plug>DashSearch
+nmap <silent> <leader>H <Plug>DashGlobalSearch

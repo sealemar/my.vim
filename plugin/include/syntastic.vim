@@ -22,4 +22,7 @@ let g:syntastic_stl_format     = '[%E{Err: %fe #%e}%B{, }%W{Warn: %fw #%w}]'
 " let g:syntastic_filetype_map = { 'arduino': 'cpp' }
 
 
+let g:syntastic_python_checkers = ['pylint', 'pep8']
+"let g:syntastic_python_checkers = ['flake8']
+let g:syntastic_javascript_checkers = ['jshint']
 let g:syntastic_sh_checkers    = ['sh']

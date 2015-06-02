@@ -7,7 +7,7 @@ let g:NERDTreeHighlightCursorline = 1
 let g:NERDTreeQuitOnOpen          = 0
 let g:NERDTreeShowHidden          = 1
 let g:NERDTreeDirArrows           = 0
-let g:NERDTreeIgnore              = [ '^\(\..\+\)\?\.swp$', '\~$', '^.DS_Store$', '^.git$' ]
+let g:NERDTreeIgnore              = [ '^\(\..\+\)\?\.swp$', '\~$', '^\.DS_Store$', '^\.git$', '^.*\.pyc$', '^__pycache__$' ]
 
 " @brief does NERDTreeFind apart from NERDTreeToggle
 "
