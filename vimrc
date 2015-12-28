@@ -136,6 +136,15 @@ set path+=/opt/local/include
 let mapleader = ","
 let maplocalleader = "<"
 
+" fix Alt / Meta key mappings
+" Note: set "User Option as Meta key" in Mac Terminal profiles
+let c='a'
+while c <= 'z'
+    exec "set <M-".c.">=\e".c
+    exec "imap \e".c." <M-".c.">"
+    let c = nr2char(1+char2nr(c))
+endw
+
 " run pathogen
 " plugins now can be installed (extracted) to ~/.vim/bundle
 call pathogen#infect()

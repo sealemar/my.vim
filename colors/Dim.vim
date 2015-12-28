@@ -84,7 +84,7 @@ hi link Function PreProc
 "hi Folded guifg=grey90 guibg=grey45
 hi Folded guifg=black guibg=grey55
 
-hi Visual gui=reverse guibg=fg guifg=darkolivegreen
+hi Visual gui=reverse guibg=fg guifg=darkolivegreen cterm=reverse ctermbg=0 ctermfg=NONE
 
 "hi Search guifg=black guibg=LightSkyBlue3 gui=none
 hi Search guifg=black guibg=LightSkyBlue4 gui=none
