@@ -9,8 +9,8 @@ endif
 
 let g:colors_name = "Dim"
 
-hi Normal guibg=black guifg=grey75
-hi Cursor guibg=grey75
+hi Normal guibg=black guifg=grey75 ctermfg=grey
+hi Cursor guibg=grey75 ctermfg=grey
 hi NonText guibg=grey10 guifg=yellow4
 hi Ignore ctermfg=darkgrey guifg=darkgrey
 hi Error ctermfg=196 ctermbg=52 cterm=reverse
@@ -33,10 +33,10 @@ highlight PmenuSel ctermfg=yellow ctermbg=darkgray guifg=yellow guibg=darkgray g
 highlight StatusLine term=reverse cterm=reverse
 highlight StatusLineNC term=bold,reverse cterm=bold,reverse
 
-hi Statement guifg=#9B8E76 gui=bold
+hi Statement guifg=#9B8E76 gui=bold cterm=bold ctermfg=100
 
 " Red
-hi Constant guifg=PaleVioletRed3
+hi Constant guifg=PaleVioletRed3 ctermfg=204
 
 " Green
 "hi Identifier guifg=#00BB00
@@ -45,16 +45,16 @@ hi Constant guifg=PaleVioletRed3
 hi Identifier guifg=#8787ff ctermfg=105
 
 " Yellow
-hi Special guifg=khaki3
+hi Special guifg=khaki3 ctermfg=214
 
 " Comment
-hi Comment guifg=#767676 ctermfg=243
+hi Comment guifg=#767676 ctermfg=239
 hi SpecialComment guifg=#af5fff ctermfg=135
 hi CommentType guifg=#87afdf ctermfg=110
 hi CommentUnderlined gui=underline guifg=#767676 ctermfg=243 cterm=underline
 
 " Purple
-hi PreProc guifg=plum3
+hi PreProc guifg=plum3 ctermfg=219
 
 " Cyan
 hi Character guifg=CadetBlue3
