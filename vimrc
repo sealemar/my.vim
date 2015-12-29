@@ -10,6 +10,17 @@
 
 colorscheme Dim
 
+if has("multi_byte")
+  set encoding=utf-8
+  setglobal fileencoding=utf-8
+  " DOCKER environment variable may be set indicating termencoding should be forced to utf-8
+  if &termencoding == "" || $DOCKER == "1"
+    let &termencoding = &encoding
+  endif
+  "setglobal bomb
+  set fileencodings=ucs-bom,utf-8,latin1
+endif
+
 set nocompatible
 
 " enable 256 colors in vim (usefull with GNU screen)
