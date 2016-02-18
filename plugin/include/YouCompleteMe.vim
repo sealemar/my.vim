@@ -1,6 +1,10 @@
 " let g:ycm_path_to_python_interpreter = `which python`
 let g:ycm_path_to_python_interpreter = substitute( system('which python2'), "\n", "", "" )
 
+" YouCompleteMe completes Python through JediHTTP
+" See https://github.com/Valloric/YouCompleteMe#python-semantic-completion
+let g:ycm_python_binary_path = substitute( system('which python3'), "\n", "", "" )
+
 let g:ycm_min_num_of_chars_for_completion     = 3
 let g:ycm_register_as_syntastic_checker       = 1
 let g:ycm_collect_identifiers_from_tags_files = 1
