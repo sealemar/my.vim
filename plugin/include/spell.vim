@@ -16,3 +16,5 @@ if version >= 700
     menu Spell.Previous\ Wrong\ Word<Tab>[s [s
     menu Spell.Next\ Wrong\ Word<Tab>]s ]s
 endif
+
+nmap <S-F9> :emenu Spell.

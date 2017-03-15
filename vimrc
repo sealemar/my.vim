@@ -128,7 +128,7 @@ filetype plugin indent on
 autocmd FileType c,cpp,slang set cindent
 
 " View non text files
-"au BufReadPost *.pdf silent %!pdftotext -nopgbrk "%" - |fmt -csw78
+au BufReadPost *.pdf silent %!pdftotext -nopgbrk "%" - |fmt -csw78
 au BufReadPost *.doc silent %!antiword "%"
 au BufReadPost *.odt silent %!odt2txt "%"
 
