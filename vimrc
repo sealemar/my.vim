@@ -1,5 +1,4 @@
-" Sergey Markelov's vimrc 2011
-"
+" Sergey Markelov's vimrc 2011 "
 " look into ~/.vim/plugin/include/*.vim
 " for loadable scripts transferred from here to split the logic and make this
 " .vimrc clean & clear
@@ -7,8 +6,6 @@
 " also refer to ~/.vim/after/plugin/include to see which scripts loads after
 " everything
 
-
-colorscheme Dim
 
 if has("multi_byte")
   set encoding=utf-8
@@ -159,3 +156,5 @@ endw
 " run pathogen
 " plugins now can be installed (extracted) to ~/.vim/bundle
 call pathogen#infect()
+
+colorscheme afterglow

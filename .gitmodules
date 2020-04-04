@@ -19,3 +19,6 @@
 [submodule "bundle/dash.vim"]
 	path = bundle/dash.vim
 	url = https://github.com/rizzatti/dash.vim
+[submodule "bundle/awesome-vim-colorschemes"]
+	path = bundle/awesome-vim-colorschemes
+	url = https://github.com/rafi/awesome-vim-colorschemes.git
