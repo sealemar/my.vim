@@ -1,6 +1,3 @@
-[submodule "bundle/YouCompleteMe"]
-	path = bundle/YouCompleteMe
-	url = https://github.com/Valloric/YouCompleteMe
 [submodule "bundle/ultisnips"]
 	path = bundle/ultisnips
 	url = https://github.com/SirVer/ultisnips
@@ -22,6 +19,3 @@
 [submodule "bundle/dash.vim"]
 	path = bundle/dash.vim
 	url = https://github.com/rizzatti/dash.vim
-[submodule "bundle/nginx"]
-	path = bundle/nginx
-	url = https://github.com/evanmiller/nginx-vim-syntax

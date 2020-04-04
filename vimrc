@@ -92,7 +92,7 @@ endfunction
 
 set number
 set ruler
-set laststatus=2
+"set laststatus=2
 " 'hi USER1' is defined in ~/.vim/after/plugin/include/highlights.vim
 set statusline=%<\ %n\ %1*%{SyntasticStatuslineFlag()}%*%F%1*%m%r%h%w%*%=[FORMAT=%{&ff}]\ type=%y\ [ASCII=%{GetCurrentCharacterOrSpace()},%03b,%02Bh]\ [POS=%03c,%05l/%05L\ %3p%%]
 set showcmd
